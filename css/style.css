@@ -499,7 +499,18 @@ ul
 
 a
 {
+    -webkit-transition: all ease-in .2s;
+            transition: all ease-in .2s; 
     text-decoration: none;
+}
+a:hover
+{
+    opacity: .8;
+}
+a:active,
+a:focus
+{
+    opacity: .6;
 }
 
 .visually-hidden
@@ -918,6 +929,7 @@ a
 .navigation__link:hover
 {
     opacity: .8;
+    color: #fff;
 }
 .navigation__link:active,
 .navigation__link:focus
