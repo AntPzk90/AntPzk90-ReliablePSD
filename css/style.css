@@ -1246,9 +1246,11 @@ a:focus
     .support__vector
     {
         width: auto;
+        
+        margin-bottom: 0;
 
-        -webkit-transform: translate(-50%, .5%);
-                transform: translate(-50%, .5%);
+        -webkit-transform: translate(-50%,);
+                transform: translate(-50%);
     }
 }
 
